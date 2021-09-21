@@ -1,0 +1,77 @@
+body{
+    width: 80%;
+    margin: 10px auto;
+    background-color: #fff6db;
+}
+header .image{
+    width: 20%;
+    margin-right: 20px;
+}
+header .image img{
+    width: 100%;
+}
+header{
+    display: flex;
+}
+header .name h1{
+    color:  #ef8762;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .name h4{
+    color:  #686868;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+section .icown{
+    
+    text-align: center;
+}
+section .icown img{
+    width: 40px;
+}
+section .address{
+    display: flex;
+    margin-bottom: 20px;
+}
+section .address .item{
+    width: calc(33%);
+}
+section .address .item img{
+    width: 20px;
+}
+section .skill p img{
+    width: 20px;
+    
+}
+section .skill p span{
+    margin-right: 20px;
+}
+section .skills-experience .skill{
+    display: flex;
+    flex-direction: column;
+}
+section .skills-experience .skill p{
+ flex: auto;
+}
+section .skills-experience{
+    display: flex;
+    margin-bottom: 20px;
+}
+section .skills-experience .skill{
+    width: calc(50%);
+    border-right: orange dashed 2px;
+}
+section .skills-experience .experience{
+    margin-left: 40px;
+}
+footer .contact{
+    display: flex;
+    margin-top: 20px;
+}
+footer .contact .item1{
+    width: calc(25%);
+}
+
+footer .contact .item1 img{
+    width: 20px;
+}

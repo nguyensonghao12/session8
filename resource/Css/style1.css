@@ -1,0 +1,85 @@
+body{
+    background-color:  #e6f4ff;
+}
+.form{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    background-color: white;
+    
+}
+.form .image{
+   width: 100%;
+}
+
+.form .image img{
+    width: 100%;
+  
+}
+.form .content{
+
+  width: calc(60%-100px);
+  margin: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  }
+nav .logo{
+    display: flex;
+}
+nav{
+display:  flex;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+nav .menu a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(202,202,202);
+}
+nav .logo b{
+    color: #fe4a6a;
+}
+nav .logo ion-icon{
+    color: #fe4a6a;
+}
+section{
+    width: 90%;
+    flex: 1;
+}
+section h2{
+    font-size: 200%;
+    font-weight: 200;
+    position: relative;
+}
+section .border{
+    background-color: #fe4a6a;
+    height: 2px;
+    width: 65px;
+}
+section p{
+    font-size: 14px;
+    color: rgb(202,202,202);
+}
+footer{
+   
+    text-align: center;
+    background-color: #fe4a6a;
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px 20px;
+    position: relative;
+    margin-left: 420px;
+}
+footer a{
+   text-decoration: none;
+   color: white;
+   margin-right: 10px;
+   justify-content: end;
+
+  
+}
+footer ion-icon{
+  color: white;
+  position: absolute;
+}
+
